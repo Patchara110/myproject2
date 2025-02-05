@@ -1,0 +1,79 @@
+/* Typography */
+body, ul, li, p, a, label, input, div {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px !important;
+  font-weight: 300 !important;
+  color: #1A1A1A; /* สีเข้มขึ้นเพื่อให้อ่านง่ายขึ้น */
+}
+.h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 48px !important;
+  font-weight: 200 !important;
+  color: #D45D79; /* สีเข้มขึ้น */
+}
+.h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px !important;
+  font-weight: 300;
+  color: #4D774E; /* สีเขียวเข้มขึ้น */
+}
+.h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px !important;
+  color: #31708E; /* สีฟ้าเข้มขึ้น */
+}
+
+/* General */
+.logo { font-weight: 500 !important; color: #9CCFCE; }
+.text-warning { color: #9CCFCE!important; }
+.text-muted { color: #6C757D !important; }
+.text-success { color: #4D774E !important; }
+.text-light { color: #FDF3D6 !important; }
+.bg-dark { background-color: #1D242D !important; }
+.bg-light { background-color: #FDF3D6 !important; }
+.bg-black { background-color: #1D242D !important; }
+.bg-success { background-color: #4D774E !important; }
+
+.btn-success {
+  background-color: #D45D79 !important;
+  border-color: #D45D79 !important;
+  color: #FFFFFF !important; /* ปรับให้ตัดกับปุ่มชัดขึ้น */
+}
+
+.pagination .page-link:hover, .pagination .page-link.active {
+  background-color: #f6ea89;
+  color: #fff;
+}
+
+/* Nav */
+#templatemo_nav_top { min-height: 40px; background: #31708E; }
+#templatemo_nav_top * { font-size: .9em !important; color: #FFFFFF !important; }
+#templatemo_main_nav a { color: #1A1A1A; }
+#templatemo_main_nav a:hover { color: #D45D79; }
+
+/* Hero Carousel */
+#template-mo-zay-hero-carousel { background: #FEE3EC !important; }
+
+/* Shop */
+.shop-top-menu a:hover { color: #F9B2BC !important; }
+
+/* Product */
+.product-wap { box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.10); }
+.product-wap .product-color-dot.color-dot-red { background: #D45D79; }
+.product-wap .product-color-dot.color-dot-blue { background: #31708E; }
+.product-wap .product-color-dot.color-dot-black { background: #1A1A1A; }
+.product-wap .product-color-dot.color-dot-light { background: #FDF3D6; }
+.product-wap .product-color-dot.color-dot-green { background: #4D774E; }
+
+/* Footer */
+#tempaltemo_footer a { color: #31708E; }
+#tempaltemo_footer a:hover { color: #F9B2BC; }
+
+/* Responsive */
+@media (min-width: 992px) {
+  .product-wap .h3, .product-wap li, .product-wap i, .product-wap p { font-size: 18px !important; }
+  .product-wap .product-color-dot {
+    width: 12px;
+    height: 12px;
+  }
+}
